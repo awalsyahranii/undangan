@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+scroll-behavior: smooth;
+background-image: url();
+background-size: cover;
+background-position: center;
+height: 100vh;
+text-align: center;
+margin: 0;
+
+}
+
+header{
+    text-align: center;
+  
+}
+
+header .head .judul{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+header .head .judul p{
+    color: darkcyan;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+header .head .judul h2{
+    color: rgb(137, 61, 61);
+    font-size: 25px;
+    font-family:initial ;
+    
+}
+
+header .head .foto img{
+    width: 250px;
+    height: 380px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+header .head .tanggal{
+    color: rgb(64, 143, 110);
+}
+
+section{
+    text-align: center;
+    margin-top: 10px;
+}
+/* 
+section .hero-section{
+    background-color: rgb(255, 255, 255);
+} */
+
+section .hero-section .salam {
+   font-size: 16px;
+   margin: 0px;
+   position: relative;
+}
+
+section .hero-section .foto img{
+    width: 200px;
+    height: 320px;
+    border-radius: 30px;
+}
+
+/* .hero-section2{
+    background-color: rgb(235, 83, 83);
+} */
+
+section .hero-section2 .wanita img{
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    
+}
+section .hero-section2 .pria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+}
+section .hero-section2{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+section{
+    text-align: center;
+}
+
+section .hero-section3 .akad img{
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+section .hero-section3 .akad h4{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+section .hero-section3 .akad p{
+    font-family:sans-serif ;
+}
+
+section .hero-section3 .lok1 img{
+    width: 30px;
+    height: 20px;
+
+} 
+
+section .hero-section3 .lok1 button {
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+section .hero-section3 .resepsi img{
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+section .hero-section3 .resepsi h4{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+section .hero-section3 .resepsi p{
+    font-family:sans-serif ;
+}
+
+section .hero-section3 .lok2 img{
+    width: 30px;
+    height: 20px;
+} 
+section .hero-section3 .lok2 button{
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+footer .kaki .ucapan{
+    font-family:sans-serif ;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    background-color: rgb(135, 71, 71);
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+footer .kaki .img img{
+    width: 300px;
+    height: 290p;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+footer .kaki .img h3{
+    font-family: monospace;
+    font-size: 19px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer .kaki .img p{
+    font-family: sans-serif;
+}
+footer .kaki .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-container input{
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 14px;
+    
+}
+
+.form-container textarea{
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    resize: none;
+}
+
+.form-container button{
+    width: 180px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: rgb(135, 71, 71);
+    color: aliceblue;
+    outline: none;
+    border: none;
+}
+
+/* .dekorasi{
+    /* position: absolute;
+    width: 100px;
+     */
+/* } / */
+.dekorasi .bunga3 img{
+  position: absolute;
+  right: 10px;
+  width: 230px;
+  bottom: 50px;
+  z-index: -4;
+  
+}
+
+.dekorasi .bunga2 img{
+    position: absolute;
+    left: 0px;
+    width: 260px;
+    top:2px;
+    z-index: -3;
+
+}
+
+.dekorasi .bunga4 img{
+position: block;
+  right: 70px;
+  width: 230px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+  z-index: -4;
+}
+
+/* .audio a {
+  display: none; 
+} */
+
+.container p{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+/* .container .akad {
+    padding: 10px;
+} */
+
+.container .doa{
+    background-color: rgb(135, 71, 71);
+    color: aliceblue;
+    padding: 3px;
+}
+
+.container .doa h5{
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container .doa p{
+    margin: 0px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+
+.container .akad .card{
+    background-color: rgb(135, 71, 71);
+    color: aliceblue;
+    padding: 3px;
+}
+
+.container .akad .card h4{
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .akad .card p{
+    margin: 2px;
+    padding: 0px;
+}
+
+.container .akad .card .button button{
+    border-radius: 20px;
+    margin: 10px;
+    background-color: rgb(130, 100, 100);
+    color: aliceblue;
+}
+.container .akad .card .button img{
+    width: 20px;
+    height: 20px;
+}
+
+.container .resepsi .card{
+    background-color: rgb(135, 71, 71);
+    color: aliceblue;
+}
+
+.container .resepsi .card button{
+    background-color: rgb(130, 100, 100);
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container .resepsi .card img{
+   width: 20px;
+   height: 20px;
+   margin: 0px;
+   padding: 0px;
+}
+
+.container .resepsi .card h4{
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .resepsi .card p{
+    margin: 3px;
+    padding: 0px;
+}

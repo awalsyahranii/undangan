@@ -1,0 +1,77 @@
+body {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+
+header {
+    text-align: center;
+    align-items: center;
+    padding-top: 140px;
+    background-image: url(gambar4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+
+
+    
+    
+}
+
+header .kata{
+    color: rgb(255, 255, 255);
+}
+
+header .kata h2{
+    font-family:lucida Impact;
+    font-size: 25px;
+}
+
+header .kata h4{
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+header .kata p{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+header .link{ 
+    padding-top: 90px;
+    
+}
+
+header .link a{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header .link .btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 7px;
+    cursor:pointer ;
+   
+}
+
+header .btn :hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+header .link  .btn img{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
